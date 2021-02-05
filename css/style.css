@@ -1,0 +1,174 @@
+@charset "utf-8";
+body{
+    color:#888888;
+    font-family: 'Raleway', sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    margin:0 !important; 
+    padding:0 !important;
+    line-height: 18px;
+}
+img{
+    max-width: 100%;
+}
+.bg_gray{
+    background: #f0f0f0;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-transform: capitalize;
+    color: #000000;
+}
+p {
+    line-height: 23px;
+    color: #888888;
+    font-size: 14px;
+}
+.sections{
+    float:left;
+    width:100%;
+}
+input, a, button, .chat_button, .transition{
+    transition:all ease-in 0.3s;
+    -webkit-transition:all ease-in 0.3s;
+    -moz-transition:all ease-in 0.3s;
+}
+input:focus, select:focus, a:focus, button:focus, textarea:focus{
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+.blue_button {
+    display: inline-block;
+    text-align: center;
+    background-color: #33b5ea;
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-transform: capitalize;
+    height: 40px;
+    line-height: 38px;
+    padding: 0 20px;
+    transition: all ease-in 0.25s;
+    -webkit-transition: all ease-in 0.25s;
+    -moz-transition: all ease-in 0.25s;
+}
+/*=== padding css Start ===*/
+.pad_top_30{
+    padding-top: 30px;
+}
+.pad_top_40{
+    padding-top: 40px;
+}
+.pad_top_50{
+    padding-top: 50px;
+}
+.pad_top_60{
+    padding-top: 70px;
+}
+.pad_top_70{
+    padding-top: 70px;
+}
+.pad_bottom_30{
+    padding-bottom: 30px;
+}
+.pad_bottom_40{
+    padding-bottom: 40px;
+}
+.pad_bottom_50{
+    padding-bottom: 50px;
+}
+.pad_top_bottom_30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pad_top_bottom_40{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.pad_top_bottom_50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*=== padding css end ===*/
+/*===== owl carousel css ======*/
+.owl-carousel .owl-item img {
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+}
+.owl-dots {
+    text-align: center;
+}
+.owl-carousel .owl-dots .owl-dot {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background: #000000;
+    margin: 0 3px;
+    position: relative;
+}
+.owl-carousel .owl-dots .owl-dot.active {
+    background: #33b5ea;
+}
+/*===== owl carousel css ======*/
+/*====== header css start ======*/
+.header_section {
+    display: inline-block;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+.site_logo {
+    display: inline-block;
+    padding-top: 20px;
+}
+.site_logo a{
+    display: inline-block;
+}
+.site_logo a img {
+    display: inline-block;
+    max-width: 120px;
+}
+.navigations {
+    float: left;
+    width: 100%;
+    text-align: right;
+}
+.navigations > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+}
+.navigations > ul > li {
+    display: inline-block;
+}
+.navigations > ul > li > a {
+    font-size: 15px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    font-weight: 400;
+    color: #000000;
+    text-transform: capitalize;
+    padding: 18px 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+.navigations > ul > li > a:hover {
+    color: #efb331;
+}
+/*====== header css End ======*/
+/*====== home slider css start ======*/
+.home_slider {
+    float: left;
+    width: 100%;
+}
+/*====== home slider css End ======*/
